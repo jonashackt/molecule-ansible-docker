@@ -1,20 +1,19 @@
 ---
-dependency:
-  name: galaxy
+scenario:
+  name: default
+
 driver:
   name: docker
 platforms:
-  - name: docker-docker
+  - name: docker-ubuntu
     image: ubuntu:bionic
+
 provisioner:
   name: ansible
   lint:
     name: ansible-lint
     enabled: false
-ansible:
-  playbook: playbook.yml
-scenario:
-  name: default
+
 lint:
   name: yamllint
   enabled: false
