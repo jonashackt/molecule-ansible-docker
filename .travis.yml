@@ -9,4 +9,5 @@ install:
 - pip install molecule
 - pip install docker-py
 script:
+- cd docker
 - molecule test
