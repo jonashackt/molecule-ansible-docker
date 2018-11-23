@@ -3,6 +3,8 @@
 
 Example project showing how to test Ansible roles with Molecule and Docker
 
+[![asciicast](https://asciinema.org/a/213350.svg)](https://asciinema.org/a/213350)
+
 This is a similar project to https://github.com/jonashackt/molecule-ansible-vagrant, but leveraging Molecule´s `docker` driver.
 
 Don´t forget to install the Molecule docker driver:
