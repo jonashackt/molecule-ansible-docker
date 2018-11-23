@@ -10,12 +10,14 @@ provisioner:
   name: ansible
   lint:
     name: ansible-lint
+    enabled: false
 ansible:
   playbook: playbook.yml
 scenario:
   name: default
 lint:
   name: yamllint
+  enabled: false
 verifier:
   name: testinfra
   env:
