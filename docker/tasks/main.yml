@@ -1,6 +1,6 @@
 ---
 # tasks file for docker
-- name: install Docker apt package
+- name: install gpg package
   apt:
     pkg: gpg
     state: latest
